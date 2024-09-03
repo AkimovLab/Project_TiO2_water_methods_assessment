@@ -32,6 +32,6 @@ Oncluding all step2 results for each 3000 geometries' trajectories would be extr
 3 TD-DFT functionals (and given also the weight of MO overlaps and time-overlaps).
 
 For this reason, we include per each of the 36 brances (6x2x3) a file including the excitation energies of the 10 TD-DFT states, the MO involved in such excitations
-and the excitation amplitudes (this is indeed the output of running the `test.py` script). This info is contained in a compressed file.
+and the excitation amplitudes (this is indeed the output of running the `test.py` script). This information is contained in a compressed file.
 To unpack:
 `tar -xjf step2_key_outputs.bz2`
