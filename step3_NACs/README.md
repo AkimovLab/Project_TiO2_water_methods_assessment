@@ -1,18 +1,20 @@
-# Project_TiO2_water_methods_assessment
-scripts and selected outputs from computing the nonadiabatic couplings (NACs) between pairs of TD-DFT states.
+# Project_TiO2_water_methods_assessment. Step 3: TD-DFT NACs (time-derivative NACs)
 
-**scripts**:
+This folder contains scripts and selected outputs from computing the nonadiabatic couplings (NACs) between pairs of TD-DFT states.
+
+
+## 1. scripts
 
 The inputs in this case are part of the outcome from step2, so the required files are invoked 
 in the `step3_NACs.py` file (4th and 5th line). It is not needed to move such files to this directory. 
 There is not a "input" folder in this case.
 
-
 We add the scripts `ExciEnergies_visualization.py` and `NACs_visualization.py` that
 (after conducting the NACs calculation) generate the plots for, respectively, TD-DFT states' 
 energies evolutions and the average NACs among pairs of states.
 
-**key_outputs**:
+
+## 2. key_outputs
 
 The outputs from this step (the NACs) are heavy files so are not included here. They 
 are easy to obtain by running the step3_NACs.py file with Python or calling it with 
